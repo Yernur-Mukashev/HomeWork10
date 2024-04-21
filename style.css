@@ -553,7 +553,7 @@ img {
   cursor: pointer;
 }
 
-.facebook:hover svg {
+.footer-menuRight__facebook:hover svg {
   fill: #F1E4E6;
 }
 
