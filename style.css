@@ -200,7 +200,7 @@ img {
 }
 
 .FASHION {
-  color: #F16D7F;
+  color: #de5668;
 }
 
 .sale {
@@ -268,7 +268,7 @@ img {
 }
 
 .product-box__text {
-  color: rgba(159, 159, 159, 1);
+  color: rgb(120 117 117);
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -335,7 +335,7 @@ img {
 }
 
 .product-box__content-text p {
-  color: rgb(93, 93, 93);
+  color: rgb(88 82 82);
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
@@ -343,7 +343,7 @@ img {
 }
 
 .product-box__content-text h3 {
-  color: rgb(241, 109, 127);
+  color: rgb(192 73 89);
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -547,13 +547,13 @@ img {
   padding: 24px 0 23px;
 }
 
-.button-facebook:hover {
+.facebook:hover {
   background: rgb(241, 109, 127);
   transition: all 0.2s ease;
   cursor: pointer;
 }
 
-.button-facebook:hover svg {
+.facebook:hover svg {
   fill: #F1E4E6;
 }
 
