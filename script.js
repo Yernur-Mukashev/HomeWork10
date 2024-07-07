@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 		);
 	});
 
-	productBoxEl.addEventListener("click", (event) => {
-		if (event.target.closest(".button__product-box")) {
-			const button = event.target.closest(".button__product-box");
+	productBoxEl.addEventListener("click", (e) => {
+		if (e.target.closest(".button__product-box")) {
+			const button = e.target.closest(".button__product-box");
 			const productId = button.dataset.id;
 			const product = data.find((item) => item.id == productId);
 
@@ -73,9 +73,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 		}
 	});
 
-	cartContentEl.addEventListener("click", (event) => {
-		if (event.target.closest(".cart-item__remove")) {
-			const cartItem = event.target.closest(".cart-item");
+	cartContentEl.addEventListener("click", (e) => {
+		if (e.target.closest(".cart-item__remove")) {
+			const cartItem = e.target.closest(".cart-item");
 			cartItem.remove();
 
 			if (cartContentEl.children.length === 0) {
